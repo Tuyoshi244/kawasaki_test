@@ -691,3 +691,22 @@ a {
     border-radius: 16px;
   }
 }
+
+/* Header entry button image */
+.nav-entry-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-entry-btn img {
+  display: block;
+  height: 44px;
+  width: auto;
+}
+
+@media (max-width: 780px) {
+  .nav-entry-btn img {
+    height: 40px;
+  }
+}
